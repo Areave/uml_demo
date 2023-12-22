@@ -1,0 +1,26 @@
+{
+  "name": "joint-kitchen-sink",
+  "version": "3.7.0",
+  "description": "The Kitchen Sink Application for JointJS+",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/live-server/live-server.js  --open=./ --cors"
+  },
+  "author": "client IO",
+  "license": "http://jointjs.com/license/rappid",
+  "private": true,
+  "devDependencies": {
+    "backbone": "~1.4.1",
+    "canvg-rappid": "~1.0.3",
+    "dagre": "~0.8.5",
+    "graphlib": "~2.1.8",
+    "jointjs": "~3.7.5",
+    "jquery": "~3.6.4",
+    "live-server": "1.1.0",
+    "lodash": "~4.17.21"
+  },
+  "dependencies": {
+    "module_name": "^1.0.0",
+    "requirejs": "^2.3.6"
+  }
+}
